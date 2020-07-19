@@ -1,0 +1,37 @@
+body {
+  background-color: indigo;
+}
+.main {
+  margin-top: 20px;
+  padding: 10px;
+}
+.Title {
+  background-color: rgb(97, 193, 231);
+}
+.text {
+  position: absolute;
+  left: 40%;
+  padding-top: 10px;
+  font-size: xx-large;
+  color: floralwhite;
+}
+.or {
+  position: relative;
+  margin: 30px 0 20px;
+  color: #b7c9cc;
+  text-align: center;
+}
+.or .label-text {
+  position: relative;
+  padding: 0 30px;
+  background-color: indigo;
+}
+.or::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -0.5px;
+  width: 100%;
+  border-top: 1px solid #b7c9cc;
+  content: "";
+}
